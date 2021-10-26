@@ -1,4 +1,4 @@
-package edu.austral.dissis.collision;
+package edu.austral.dissis.starships.collision;
 
 import javafx.scene.shape.Shape;
 import org.jetbrains.annotations.NotNull;

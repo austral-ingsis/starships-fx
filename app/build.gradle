@@ -14,7 +14,7 @@ dependencies {
 
 application {
     // Define the main class for the application.
-    mainClass = 'edu.austral.dissis.app.AppKt'
+    mainClass = 'edu.austral.dissis.starships.app.AppKt'
 }
 
 javafx {

@@ -1,6 +1,7 @@
 plugins {
     id 'edu.austral.dissis.java-library-conventions'
     id 'org.openjfx.javafxplugin' version '0.0.10'
+    id 'maven-publish'
 }
 
 repositories {
@@ -10,4 +11,22 @@ repositories {
 javafx {
     version = "17"
     modules = [ 'javafx.controls' ]
+}
+
+publishing {
+    repositories {
+        maven {
+            name = "GitHubPackages"
+            url = uri("https://maven.pkg.github.com/austral-ingsis/starships-fx")
+            credentials {
+                username = project.findProperty("gpr.user") ?: System.getenv("USERNAME")
+                password = project.findProperty("gpr.key") ?: System.getenv("TOKEN")
+            }
+        }
+    }
+    publications {
+        gpr(MavenPublication) {
+            from(components.java)
+        }
+    }
 }

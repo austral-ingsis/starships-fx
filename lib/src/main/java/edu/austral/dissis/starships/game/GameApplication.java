@@ -1,9 +1,8 @@
-package edu.austral.dissis.game;
+package edu.austral.dissis.starships.game;
 
 import javafx.application.Application;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
 import org.jetbrains.annotations.NotNull;
 

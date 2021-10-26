@@ -1,4 +1,4 @@
-package edu.austral.dissis.file;
+package edu.austral.dissis.starships.file;
 
 import org.jetbrains.annotations.NotNull;
 

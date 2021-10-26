@@ -1,7 +1,7 @@
-package edu.austral.dissis.app
+package edu.austral.dissis.starships.app
 
-import edu.austral.dissis.file.ImageLoader
-import edu.austral.dissis.game.*
+import edu.austral.dissis.starships.file.ImageLoader
+import edu.austral.dissis.starships.game.*
 import javafx.scene.Node
 import javafx.scene.Parent
 import javafx.scene.image.ImageView

@@ -1,4 +1,4 @@
-package edu.austral.dissis.file;
+package edu.austral.dissis.starships.file;
 
 import javafx.scene.image.Image;
 import org.jetbrains.annotations.NotNull;
