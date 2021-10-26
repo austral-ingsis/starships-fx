@@ -1,0 +1,13 @@
+plugins {
+    id 'edu.austral.dissis.java-library-conventions'
+    id 'org.openjfx.javafxplugin' version '0.0.10'
+}
+
+repositories {
+    mavenCentral()
+}
+
+javafx {
+    version = "17"
+    modules = [ 'javafx.controls' ]
+}
