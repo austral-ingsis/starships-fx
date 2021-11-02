@@ -9,6 +9,7 @@ import javafx.scene.input.KeyCode
 import javafx.scene.layout.Pane
 import javafx.scene.layout.StackPane
 import javafx.scene.text.Text
+import kotlin.collections.*
 
 class Game : GameApplication() {
     override fun setupWindow(): WindowSettings {
